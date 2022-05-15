@@ -44,6 +44,8 @@ body {
 
 .main-container {
     padding: 10px 0;
+    min-height: 100vh;
+    position: relative;
 }
 
 .center {
@@ -215,6 +217,9 @@ h5 {
   
   .push {
     margin-left: auto;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .special{
@@ -898,7 +903,10 @@ b i:last-child {
 footer {
     padding: 30px 0;
     text-align: center;
-    background: #f5f5f5
+    background: #f5f5f5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .copyright {
